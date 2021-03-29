@@ -1,0 +1,22 @@
+<%- include('../partials/header') %>
+
+<script type="text/javascript">
+const origin = window.location.origin
+
+$.getJSON(origin + '/languages', (data) => {
+        data.forEach(language => {
+            $('#languages').append(
+                `<a class="m-1 btn btn-primary" href="${origin}/${language}">${language}</a>`
+            )
+        })
+    })
+</script>
+
+<div id="indexContainer" class="container py-2">
+    <h1>Languages</h1>
+    <hr>
+    <div id="languages">
+    </div>
+</div>
+
+<%- include('../partials/footer') %>

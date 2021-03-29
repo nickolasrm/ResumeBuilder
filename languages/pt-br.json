@@ -1,0 +1,154 @@
+{
+    "name": "Nickolas da Rocha Machado",
+    "personalInfo": {
+        "profession": "Estudante",
+        "addressLabel": "Endereço",
+        "address": "Rio de Janeiro, RJ",
+        "contactLabel": "Contato",
+        "socialMedia": [
+            {
+                "name": "GitHub",
+                "link": "https://github.com/nickolasrm"
+            },
+            {
+                "name": "LinkedIn",
+                "link": "https://www.linkedin.com/in/nickolas-da-rocha-machado-1566b3198/"
+            }
+        ]
+    },
+    "summary": {
+        "label": "Resumo",
+        "text": "Criativo, bom ouvinte, aplicado, ansioso para aprender e contribuir com os times da empresa. Sempre querendo melhorar a qualidade do trabalho, incluindo soft skills como habilidades de organização e comunicação."
+    },
+    "skills": {
+        "label": "Habilidades",
+        "list": [
+            {
+                "text": "C, Java, Python, Julia, JavaScript, PHP,  HTML, CSS, Bootstrap, Git, SQL",
+                "rating": "0"
+            },
+            {
+                "text": "Forte experiencia em Julia com Flux ML. Construção uma biblioteca de aprendizado por reforço com redes neurais de bits.",
+                "rating": "4"
+            },
+            {
+                "text": "Adepto à filosofia do clean code para produção de códigos legíveis",
+                "rating": "5"
+            },
+            {
+                "text": "Experiência construindo web scrapers (Selenium)",
+                "rating": "3"
+            },
+            {
+                "text": "Habilidade em desenvolvimento web na construção de sites responsivos",
+                "rating": "4"
+            },
+            {
+                "text": "Acostumado a escrever testes automatizados com Travis CI e Codecov",
+                "rating": "3"
+            },
+            {
+                "text": "Habilidade em aprender rapidamente através de documentação",
+                "rating": "5"
+            },
+            {
+                "text": "Inglês avançado. Intercâmbio de estudos de idioma no Canada em 2020",
+                "rating": "4"
+            }
+        ]
+    },
+    "jobs": {
+        "label": "Histórico de Empregos",
+        "list": [
+            {
+                "start": "Out 2020",
+                "end": "Atual",
+                "title": "Bolsista de Treinamento e Capacitação Tecnica",
+                "company": "CITEI",
+                "location": "Nova Iguaçu - RJ",
+                "bullets": [
+                    "Aprendizado de novas habilidades rapidamente e aplicação delas em tarefas diárias, melhorando a eficiência e produtividade no trabalho.",
+                    "Usado PHP, jQuery, Wordpress, Bootstrap, Git e outras ferramentas para criação de um website.",
+                    "Construidas soluções para acessibilidade, como apresentações acessíveis e uma barra de acessibilidade para pessoas com deficiências visuais."
+                ]
+            },
+            {
+                "start": "Out 2019",
+                "end": "Out 2020",
+                "title": "Bolsista",
+                "company": "+Casas da Inovação",
+                "location": "Nova Iguaçu - RJ",
+                "bullets": [
+                    "Ensinadas pessoas de várias idades sobre desenvolvimento de jogos.",
+                    "Produção de dois artigos, um sobre tradução de software, e outro sobre apresentações acessíveis. Ambos focados em acessibilidade.",
+                    "Proatividade propondo novas soluções para reduzir a quantidade de trabalho, como um web scraper para reduzir a extração de dados manual."
+                ]
+            }
+        ]
+    },
+    "education": {
+        "label": "Educação",
+        "list": [
+            {
+                "start": "Jan 2018",
+                "end": "Atual",
+                "title": "Bacharelado em Ciência da Computação: Ciência da Computação",
+                "company": "Universidade Federal Rural do Rio de Janeiro",
+                "location": "Nova Iguaçu - Rio de Janeiro",
+                "bullets": [
+                    "Membro do ATISLabs: https://atislabs.com.br/",
+                    "Disciplina favorita: Inteligência artificial",
+                    "Área de estudo favorita: Data science",
+                    "CR 8.56"
+                ]
+            },
+            {
+                "start": "Jan 2015",
+                "end": "Jan 2018",
+                "title": "Tecnico de Informática: Tecnologia da Informação",
+                "company": "FAETEC",
+                "location": "Rio de Janeiro- RJ",
+                "bullets": [
+                    "Projeto final: Um sistema de gerenciamento de fast-food usando MySQL, Java, WebSockets com uma interface gráfica amigável a touchscreen"
+                ]
+            }
+        ]
+    },
+    "languages": {
+        "label": "Idiomas",
+        "list": [
+            {
+                "text": "Inglês",
+                "rating": "4"
+            },
+            {
+                "text": "Português",
+                "rating": "5"
+            }
+        ]
+    },
+    "organizations": {
+        "label": "Organizações",
+        "list": [
+            {
+                "start": "Jun 2020",
+                "end": "Atual",
+                "title": "Estudante Pesquisador: Grupo de Pesquisa",
+                "company": "ATISLabs",
+                "location": "Nova Iguaçu - RJ",
+                "bullets": [
+                    "Trabalhando principalmente com aprendizado por reforço e soluções em HPC para hardwares low-end, como redes neurais de bits."
+                ]
+            }
+        ]
+    },
+    "other": {
+        "label": "Outros",
+        "list": [
+            "Apresentado um trabalho sobre multiplicação de matrizes com CUDA na Escola Regional de Alto Desempenho do Rio de Janeiro (ERAD-RJ) em 2019.",
+            "Apresentado um trabalho sobre redes neurais de bits na Escola Regional de Alto Desempenho do Rio de Janeiro (ERAD-RJ) em 2020.",
+            "Apresentado um trabalho sobre tradução de softwares na Semana Nacional de Ciência e Tecnologia da UFRRJ (SNCT/UFRRJ) em 2020.",
+            "Escrito um artigo sobre acessibilidade digital para apresentações na Semana Nacional de Ciência e Tecnologia da UFRRJ (SNCT/UFRRJ) em 2020."
+        ]
+    }
+}

@@ -1,0 +1,70 @@
+<%
+generateStars = function(stars)
+{
+    const rating = parseInt(stars)
+    let i = 0, code = ''
+
+    if (rating > 0)
+    {
+        for(; i < rating; i++)
+            code += '<i class="bi bi-star-fill"></i>'
+        for(; i < 5; i++)
+            code += '<i class="bi bi-star"></i>'
+    }
+
+    return code
+}
+
+generateList = function(list, innerFunction)
+{
+    let code = '<ul class="list">'
+    list.forEach(el => {
+        code += '<li>'
+        code += innerFunction(el)
+        code += '</li>'
+    })
+    code += '</ul>'
+
+    return code
+}
+
+generateLabel = function(label, icon)
+{
+    let code = `
+        <div class="align-middle-inline pb-3 icon-container">
+            <i class="bi bi-${icon} lead icon"></i>
+            <h3 class="pl-2 my-0">${label}</h3>
+        </div>
+    `
+    return code
+}
+
+generateDatedItem = function(item)
+{
+    let code = `
+        <div class="row">
+            <div class="col-sm-2"
+                <p><i>${item.start}<br>${item.end}</i></p>
+            </div>
+            <div class="col-sm-10 d-flex flex-column">
+                <a><b>${item.title}</b></a>
+                <a><i>${item.company}, ${item.location}</i></a>
+                ${generateList(item.bullets, (bullet) => {return bullet})}
+            </div>
+        ` 
+    return code
+}
+
+generateRatedItem = function(item)
+{
+    let code = `
+        <div class="d-flex flex-column">
+            <p class="mb-2">${item.text}</p>
+            <div class="align-self-end">
+                ${generateStars(item.rating)}
+            </div>
+        </div>
+    `
+    return code
+}
+%>

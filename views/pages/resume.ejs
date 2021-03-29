@@ -1,0 +1,23 @@
+<%- include('../partials/header') %>
+
+<a onclick="save()" class="w-100 p-4 mb-4 btn btn-primary d-print-none rounded-0">Print</a>
+
+<%- include('../resume/functions') %>
+<main id="toPdf" class="mx-auto p-0">
+    <%- include('../resume/personal_info') %>
+    <div class="px-5 pb-4 pt-2 bg-white">
+        <%- include('../resume/summary') %>
+        <%- include('../resume/skills') %>
+        <%- include('../resume/jobs') %>
+        <%- include('../resume/organizations') %>
+        <%- include('../resume/education') %>
+        <%- include('../resume/languages') %>
+        <%- include('../resume/other') %>
+        <!-- Remove it if you don't want this on your resume -->
+        <div class="d-flex align-items-end justify-content-end">
+            <p class="pt-4 text-muted">Made using nickolasrm resume builder</p>
+        </div>
+    </div>
+</main>
+
+<%- include('../partials/footer') %>

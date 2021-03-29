@@ -1,0 +1,25 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "My resume template",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickolasrm/resume.git"
+  },
+  "author": "nickolas da rocha machado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nickolasrm/resume/issues"
+  },
+  "homepage": "https://github.com/nickolasrm/resume#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security"
+  }
+}

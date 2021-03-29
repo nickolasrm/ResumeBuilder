@@ -1,0 +1,154 @@
+{
+    "name": "Nickolas da Rocha Machado",
+    "personalInfo": {
+        "profession": "Student",
+        "addressLabel": "Address",
+        "address": "Rio de Janeiro, RJ",
+        "contactLabel": "Contact",
+        "socialMedia": [
+            {
+                "name": "GitHub",
+                "link": "https://github.com/nickolasrm"
+            },
+            {
+                "name": "LinkedIn",
+                "link": "https://www.linkedin.com/in/nickolas-da-rocha-machado-1566b3198/"
+            }
+        ]
+    },
+    "summary": {
+        "label": "Summary",
+        "text": "Creative, good listener, hardworking person, eager to learn and contribute with the company's teams. Continuously improving the quality of the work, including soft skills such as organization and communication."
+    },
+    "skills": {
+        "label": "Skills",
+        "list": [
+            {
+                "text": "C, Java, Python, Julia, JavaScript, PHP,  HTML, CSS, Bootstrap, Git, SQL",
+                "rating": "0"
+            },
+            {
+                "text": "Strong experience using Julia and Flux ML. Built a reinforcement learning library using bit neural networks",
+                "rating": "4"
+            },
+            {
+                "text": "Adept to the clean code philosophy for producing legible codes",
+                "rating": "5"
+            },
+            {
+                "text": "Experience making web scrapers (Selenium)",
+                "rating": "3"
+            },
+            {
+                "text": "Skilled in web development building responsible websites",
+                "rating": "4"
+            },
+            {
+                "text": "Used to write automated tests with Travis CI and Codecov",
+                "rating": "3"
+            },
+            {
+                "text": "Ability learning fastly through documentation",
+                "rating": "5"
+            },
+            {
+                "text": "Advanced english. Went to Canada for a student exchange program in 2020",
+                "rating": "4"
+            }
+        ]
+    },
+    "jobs": {
+        "label": "Jobs History",
+        "list": [
+            {
+                "start": "Oct 2020",
+                "end": "Current",
+                "title": "Technical Development Scholar",
+                "company": "CITEI",
+                "location": "Nova Iguaçu - RJ",
+                "bullets": [
+                    "Quickly learned new skills and applied them to daily tasks, improving efficiency and productivity on the work.",
+                    "Used PHP, jQuery, Wordpress, Bootstrap, Git and other tools to create a website.",
+                    "Built solutions for accessibility, such as accessible presentations and an accessibility bar for people with vision disabilities."
+                ]
+            },
+            {
+                "start": "Oct 2019",
+                "end": "Oct 2020",
+                "title": "Scholar",
+                "company": "+Casas da Inovação",
+                "location": "Nova Iguaçu - RJ",
+                "bullets": [
+                    "Taught multiple aged people about game development.",
+                    "Produced two articles, one about software translation and another one about accessible presentations. Both were mainly focused on accessibility.",
+                    "Proactivity proposing new solutions to reduce the amount of work, such as a web scraper to avoid manual data extraction."
+                ]
+            }
+        ]
+    },
+    "education": {
+        "label": "Education",
+        "list": [
+            {
+                "start": "Jan 2018",
+                "end": "Current",
+                "title": "Bachelor of Science: Computer Science",
+                "company": "Universidade Federal Rural do Rio de Janeiro",
+                "location": "Nova Iguaçu - Rio de Janeiro",
+                "bullets": [
+                    "Member of ATISLabs: https://atislabs.com.br/",
+                    "Favorite class: Artificial Intelligence",
+                    "Favorite area of study: Data science",
+                    "GPA 4.28"
+                ]
+            },
+            {
+                "start": "Jan 2015",
+                "end": "Jan 2018",
+                "title": "IT Technician: Information Technology",
+                "company": "FAETEC",
+                "location": "Rio de Janeiro- RJ",
+                "bullets": [
+                    "Final project: A fast-food management system using MySQL, Java and WebSockets with a touchscreen friendly GUI"
+                ]
+            }
+        ]
+    },
+    "languages": {
+        "label": "Languages",
+        "list": [
+            {
+                "text": "English",
+                "rating": "4"
+            },
+            {
+                "text": "Portuguese",
+                "rating": "5"
+            }
+        ]
+    },
+    "organizations": {
+        "label": "Organizations",
+        "list": [
+            {
+                "start": "Jun 2020",
+                "end": "Current",
+                "title": "Student Researcher: Research Group",
+                "company": "ATISLabs",
+                "location": "Nova Iguaçu - RJ",
+                "bullets": [
+                    "Mainly working with reinforcement learning and HPC solutions for low-end hardware, such as bit neural networks"
+                ]
+            }
+        ]
+    },
+    "other": {
+        "label": "Other",
+        "list": [
+            "Presented a project about matrix multiplication with CUDA at Regional School of High Performance Computing of Rio de Janeiro (ERAD-RJ) in 2019",
+            "Presented a project about bit neural networks at Regional School of High Performance Computing of Rio de Janeiro (ERAD-RJ) in 2020",
+            "Presented a project about software translation at National Technology and Science Week of the UFRRJ (SNCT/UFRRJ) in 2020",
+            "Wrote a paper about digital accessibility for presentations in National Technology and Science Week of the UFRRJ (SNCT/UFRRJ) in 2020"
+        ]
+    }
+}
