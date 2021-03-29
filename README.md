@@ -40,7 +40,7 @@ Check out the JSON files on the `languages` folder to see how it works!
 - Open a browser tab and enter the following URL: `localhost:3000`
 
 <hr>
-<b>Note 1: Everytime you add a new JSON (language), you have to restart the application in order to to refresh express' addresses</b>
+<b>Note 1: Everytime you add a new JSON (language), you have to restart the application in order to refresh express' routes</b>
 
 <b>Note 2: You are free to fork this repository and build your resume as you want</b>
 
