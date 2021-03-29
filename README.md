@@ -41,5 +41,7 @@ Check out the JSON files on the `languages` folder to see how it works!
 
 <hr>
 <b>Note 1: Everytime you add a new JSON (language), you have to restart the application in order to to refresh express' addresses</b>
+
 <b>Note 2: You are free to fork this repository and build your resume as you want</b>
+
 <b>Note 3: If this helped you in some way, don't forget to give it a star ;)</b>
