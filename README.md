@@ -32,4 +32,4 @@ Check out the ejs files on the `views/resume` folder to see how it works! (Check
 Check out the JSON files on the `languages` folder to see how it works!
 
 <hr>
-**Note: You are free to fork this repository and build your own resume**
+<b>Note: You are free to fork this repository and build your own resume</b>
