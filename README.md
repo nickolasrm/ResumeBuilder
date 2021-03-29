@@ -31,5 +31,15 @@ Check out the ejs files on the `views/resume` folder to see how it works! (Check
 
 Check out the JSON files on the `languages` folder to see how it works!
 
+### How to use it
+- Make sure you have node and npm installed. If don't, download it here: https://nodejs.org/en/
+- Clone this repository somewhere in your computer
+- Open a terminal session at the resume-builder main folder
+- Run `npm install` to install the required dependencies
+- Run `npm run` to start resume-builder
+- Open a browser tab and enter the following URL: `localhost:3000`
+
 <hr>
-<b>Note: You are free to fork this repository and build your own resume</b>
+<b>Note 1: Everytime you add a new JSON (language), you have to restart the application in order to to refresh express' addresses</b>
+<b>Note 2: You are free to fork this repository and build your resume as you want</b>
+<b>Note 3: If this helped you in some way, don't forget to give it a star ;)</b>
