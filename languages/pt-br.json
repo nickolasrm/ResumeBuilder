@@ -1,6 +1,7 @@
 {
-    "name": "Nickolas da Rocha Machado",
     "personalInfo": {
+        "name": "Nickolas da Rocha Machado",
+        "email": "nickolasrochamachado@gmail.com",
         "profession": "Estudante",
         "addressLabel": "Endereço",
         "address": "Rio de Janeiro, RJ",
@@ -12,7 +13,7 @@
             },
             {
                 "name": "LinkedIn",
-                "link": "https://www.linkedin.com/in/nickolas-da-rocha-machado-1566b3198/"
+                "link": "https://linkedin.com/in/nickolasrm"
             }
         ]
     },
@@ -99,7 +100,10 @@
                     "Membro do ATISLabs: https://atislabs.com.br/",
                     "Disciplina favorita: Inteligência artificial",
                     "Área de estudo favorita: Data science",
-                    "CR 8.56"
+                    "CR 8.56",
+                    "7° período. Devido à pausa da universidade pela pandemia da Covid-19, o periodo real é o 5°",
+                    "Previsão de graduação para segundo semestre de 2022",
+                    "Aulas ocorrem geralmente de 8 até meio dia."
                 ]
             },
             {

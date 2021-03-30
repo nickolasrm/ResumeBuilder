@@ -1,6 +1,7 @@
 {
-    "name": "Nickolas da Rocha Machado",
     "personalInfo": {
+        "name": "Nickolas da Rocha Machado",
+        "email": "nickolasrochamachado@gmail.com",
         "profession": "Student",
         "addressLabel": "Address",
         "address": "Rio de Janeiro, RJ",
@@ -12,7 +13,7 @@
             },
             {
                 "name": "LinkedIn",
-                "link": "https://www.linkedin.com/in/nickolas-da-rocha-machado-1566b3198/"
+                "link": "https://linkedin.com/in/nickolasrm"
             }
         ]
     },
@@ -98,8 +99,11 @@
                 "bullets": [
                     "Member of ATISLabs: https://atislabs.com.br/",
                     "Favorite class: Artificial Intelligence",
-                    "Favorite area of study: Data science",
-                    "GPA 4.28"
+                    "Favorite area of study: Data science and artificial intelligence",
+                    "GPA 4.28",
+                    "7th semester. Due to the university pause for the Covid-19 pandemic, the actual semester is the 5th",
+                    "Graduation estimated for the 2nd semester of 2022",
+                    "Classes are often from 8 to noon"
                 ]
             },
             {

@@ -1,5 +1,5 @@
 <section id="header" class="bg-primary text-primary-foreground p-4">
-    <h1><%= name %></h1>
+    <h1><%= personalInfo.name %></h1>
     <h2 class="mb-3 text-primary-foreground"><%= personalInfo.profession %></h2>
     <div class="row pt-2">
         <div class="col">
@@ -14,12 +14,24 @@
                         <li class="social-media mb-3">
                             <i class="bi bi-${social.name.toLowerCase()}"></i>
                             <span class="pl-2 text-primary-foreground">
-                                ${social.name}: <a href=${social.link} class="sm-link">${social.link}</a>
+                                ${social.name}: 
+                                <a href="${social.link}" class="contact-link">
+                                    ${social.link}
+                                </a>
                             </span>
                         </li>
                     `  %>
                     <%- code %>
                 <% }) %>
+                <li class="social-media mb-3">
+                    <i class="bi bi-envelope-fill"></i>
+                    <span class="pl-2 text-primary-foreground">
+                        Email: 
+                        <a class="contact-link" href="mailto:<%= personalInfo.email %>">
+                            <%= personalInfo.email %>
+                        </a>
+                    </span>
+                </li>
             </ul>
         </div>
     </div>

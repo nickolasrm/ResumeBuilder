@@ -1,3 +1,4 @@
+/* Variables, replace it if you want different colors */
 :root
 {
     --primary: #283593;
@@ -11,47 +12,26 @@
     --xs-font-size: 20px;
 }
 
+/* Font type setter */
 body
 { 
     font-family: Montserrat; 
 }
 
-.sm-link{ font-size: var(--xs-font-size); }
+/* Font size setters */
 h1{ font-size: var(--xl-font-size); }
 h2{ font-size: var(--l-font-size); }
 h3{ font-size: var(--m-font-size); font-weight: bold; }
 address, a, i, p, li
 { font-size: var(--m-font-size); }
 
-li, .icon-container
-{
-    page-break-after: auto;
-    page-break-inside: avoid;
-}
-
-section
-{
-    -webkit-print-color-adjust: exact;
-    padding: 30px 0 0 0;
-}
-
-li
-{
-    margin-bottom: 4mm;
-}
-
+/* Bootstrap Overrides */
 .bg-primary{ background-color: var(--primary) !important; }
 .text-primary-foreground{ color: var(--primary-foreground) !important; }
 .bg-secondary{ background-color: var(--secondary) !important; }
 .text-secondary-foreground{ color: var(--secondary-foreground) !important; }
 
-.align-middle-inline
-{
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-}
-
+/* Sections */
 .icon
 {
     background-color: var(--primary);
@@ -76,6 +56,29 @@ li
     font-size: 1.5rem;
 }
 
+section
+{
+    padding: 30px 0 0 0;
+}
+
+li
+{
+    margin-bottom: 4mm;
+}
+
+/* Personal Info */
+.contact-link
+{ 
+    font-size: var(--xs-font-size); 
+    text-decoration: underline;
+    color: var(--primary-foreground);
+}
+.contact-link:hover
+{
+    color: var(--primary-foreground);
+}
+
+/* Page size */
 #toPdf
 {
     width: 1240px;
@@ -86,19 +89,10 @@ li
     min-height: 100vh;
 }
 
-@page {
-    size: 210mm 287mm;
-    margin: 0;
-}
-
-@page :first{
-    size: 210mm 292mm;
-    margin: 0;
-    margin-top: -0.5cm;
-}
-
-@media print {
-    body {
-        margin: 0;
-    }
+/* Auxiliar */
+.align-middle-inline
+{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
 }
