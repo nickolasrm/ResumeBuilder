@@ -36,7 +36,7 @@ Check out the JSON files on the `languages` folder to see how it works!
 - Clone this repository somewhere in your computer
 - Open a terminal session at the resume-builder main folder
 - Run `npm install` to install the required dependencies
-- Run `npm run` to start resume-builder
+- Run `npm start` to start resume-builder
 - Open a browser tab and enter the following URL: `localhost:3000`
 
 <hr>
