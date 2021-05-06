@@ -1,6 +1,9 @@
 <%- include('../partials/header') %>
 
-<a onclick="save()" class="w-100 p-4 mb-4 btn btn-primary d-print-none rounded-0">Print</a>
+<div class="d-flex">
+    <a onclick="save()" class="w-50 p-4 mb-4 btn btn-primary d-print-none rounded-0">Save with canvas (text not selectable, but one page)</a>
+    <a onclick="print()" class="w-50 p-4 mb-4 btn btn-primary d-print-none rounded-0">Print (text selectable, but multiple pages)</a>
+</div>
 
 <%- include('../resume/functions') %>
 <main id="toPdf" class="mx-auto p-0">
