@@ -2,6 +2,7 @@
 A simple customizable resume builder with modular sections and translations made using Node.js and Bootstrap.
 
 ![Screenshot](https://github.com/nickolasrm/resume/blob/main/screenshot.PNG)
+
 An example of resume
 
 ### Resume sections
