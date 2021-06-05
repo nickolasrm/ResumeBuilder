@@ -10,5 +10,5 @@ app.use(express.static('public'))
 router.addRoutes(app)
 
 app.listen(3000,function() {
-    console.log("Server started");
+    console.log("Resume Builder started, go to http://localhost:3000 to see you resume");
 });
