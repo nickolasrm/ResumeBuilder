@@ -4,7 +4,7 @@
         "email": "nickolasrochamachado@gmail.com",
         "profession": "Student",
         "addressLabel": "Address",
-        "address": "Rio de Janeiro, RJ",
+        "address": "Rio de Janeiro",
         "contactLabel": "Contact",
         "socialMedia": [
             {
@@ -25,7 +25,7 @@
         "label": "Skills",
         "list": [
             {
-                "text": "C, Java, Python, Julia, JavaScript, PHP,  HTML, CSS, Bootstrap, Git, SQL",
+                "text": "C, Java, Python, Julia, JavaScript, Node.js, Express, PHP,  HTML, CSS, Bootstrap, React, Git, SQL",
                 "rating": "0"
             },
             {
@@ -49,11 +49,15 @@
                 "rating": "3"
             },
             {
-                "text": "Ability learning fastly through documentation",
+                "text": "Ability learning fast through documentation",
                 "rating": "5"
             },
             {
-                "text": "Advanced english. Went to Canada for a student exchange program in 2020",
+                "text": "Used to plan softwares before development through the use of UML diagrams and other diagrams",
+                "rating": "3"
+            },
+            {
+                "text": "Advanced english. Went to Canada in a student exchange program in 2020",
                 "rating": "4"
             }
         ]
@@ -68,7 +72,7 @@
                 "company": "CITEI",
                 "location": "Nova Iguaçu - RJ",
                 "bullets": [
-                    "Quickly learned new skills and applied them to daily tasks, improving efficiency and productivity on the work.",
+                    "Quickly learned new skills and applied them to daily tasks improving efficiency and productivity on the work.",
                     "Used PHP, jQuery, Wordpress, Bootstrap, Git and other tools to create a website.",
                     "Built solutions for accessibility, such as accessible presentations and an accessibility bar for people with vision disabilities."
                 ]
@@ -80,7 +84,7 @@
                 "company": "+Casas da Inovação",
                 "location": "Nova Iguaçu - RJ",
                 "bullets": [
-                    "Taught multiple aged people about game development.",
+                    "Taught children about game development.",
                     "Produced two articles, one about software translation and another one about accessible presentations. Both were mainly focused on accessibility.",
                     "Proactivity proposing new solutions to reduce the amount of work, such as a web scraper to avoid manual data extraction."
                 ]
@@ -97,11 +101,11 @@
                 "company": "Universidade Federal Rural do Rio de Janeiro",
                 "location": "Nova Iguaçu - Rio de Janeiro",
                 "bullets": [
-                    "Member of ATISLabs: https://atislabs.com.br/",
+                    "Member of <a target=\"_blank\" href=\"https://atislabs.com.br\">ATISLabs</a>",
                     "Favorite class: Artificial Intelligence",
                     "Favorite area of study: Data science and artificial intelligence",
                     "GPA 4.28",
-                    "7th semester. Due to the university pause for the Covid-19 pandemic, the actual semester is the 5th",
+                    "8th semester. Due to the university pause for the Covid-19 pandemic, the actual semester is the 6th",
                     "Graduation estimated for the 2nd semester of 2022",
                     "Classes are often from 8 to noon"
                 ]

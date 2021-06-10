@@ -38,6 +38,10 @@ address, a, i, p, li
     color: var(--secondary-foreground);
 }
 
+.icon-container
+{
+    break-inside: avoid;
+}
 .icon
 {
     background-color: var(--primary);
