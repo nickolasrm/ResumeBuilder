@@ -4,7 +4,7 @@
         "email": "nickolasrochamachado@gmail.com",
         "profession": "Student",
         "addressLabel": "Address",
-        "address": "Rio de Janeiro",
+        "address": "Bangu, Rio de Janeiro, RJ",
         "contactLabel": "Contact",
         "socialMedia": [
             {
@@ -19,7 +19,7 @@
     },
     "summary": {
         "label": "Summary",
-        "text": "Creative, good listener, hardworking person, eager to learn and contribute with the company's teams. Continuously improving the quality of the work, including soft skills such as organization and communication."
+        "text": "Creative, good listener, hardworking person, eager to learn and to contribute to the company's teams. Continuously improving the quality of the work, including soft skills such as organization and communication."
     },
     "skills": {
         "label": "Skills",
